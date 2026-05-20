@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  ogeaked:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - CLIENT_ORIGIN=http://localhost:3000
+      - MAX_CONNECTIONS=500
