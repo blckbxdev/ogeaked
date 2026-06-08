@@ -47,7 +47,7 @@ Cyberpunk face-rating app with solo and multiplayer score battles.
 - `NODE_ENV` (`development` or `production`)
 - `CLIENT_ORIGIN` (required in production CORS lock)
 - `MAX_CONNECTIONS` (default `500`)
-- `RANKED_MATCH_MS` (default `45000`) — rated duel length; highest **peak** Rizz Score wins
+- `RANKED_MATCH_MS` (default `45000`) — rated duel length; highest **peak** Geek Score wins
 
 ## Ranked multiplayer protocol (Socket.io)
 
